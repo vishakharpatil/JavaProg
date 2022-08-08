@@ -1,0 +1,16 @@
+package CICD;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class addTest {
+	add cal=new add();
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+	 public void testSum() {
+		   assertEquals(2,add.sum(1,1));
+		  }
+}
